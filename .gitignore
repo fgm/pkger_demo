@@ -1,9 +1,15 @@
+# IDE config
+.idea
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+dev
+run
+pkge
 
 # Test binary, built with `go test -c`
 *.test
