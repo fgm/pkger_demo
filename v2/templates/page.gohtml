@@ -1,0 +1,14 @@
+{{ define "page" }}
+{{- /*gotype: code.osinet.fr/fgm/pkger_demo.PageData*/ -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Path }} callback</title>
+</head>
+<body>
+  <p>Called on {{ .Path }}</p>
+  {{ template "layout/footer" . }}
+</body>
+</html>
+{{ end }}
